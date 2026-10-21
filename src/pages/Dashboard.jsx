@@ -11,7 +11,6 @@ import {
   Terminal,
   CheckSquare,
   User,
-  Settings,
   Search,
   ChevronRight,
   Code2,
@@ -24,7 +23,6 @@ const NAV_ITEMS = [
   { id: "practice", label: "Practice", icon: Terminal, href: "/practice" },
   { id: "submissions", label: "Submissions", icon: CheckSquare, href: "/practice" },
   { id: "profile", label: "Profile", icon: User, href: "/profile" },
-  { id: "settings", label: "Settings", icon: Settings, href: "/profile" },
 ];
 
 export function Dashboard() {
